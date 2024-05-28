@@ -149,4 +149,3 @@ metal_list = ["Metallica", "Iron Maiden", "Dream Theater", "Megateht", "AC/DC"]
 
 print(random.choice(metal_list))
 
-# Question 17
