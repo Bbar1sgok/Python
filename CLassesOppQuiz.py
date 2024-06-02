@@ -63,7 +63,7 @@ class cat():
         self.name = name
         self.age = age
 
-    def yasiCarp(self):
+    def multiplyTheAge(self):
         return self.age * 3
 
 # REPLY:  cat.ageMultiply() = 15
