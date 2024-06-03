@@ -27,7 +27,7 @@ def determine_triangle_type(a, b, c):
 
 shape = input("Which shape's type do you want to learn? ")
 
-if shape.lower() == "quadrilateral":
+if shape.lower().strip() == "quadrilateral":
     print("Please enter the sides in order.")
     try:
         sides = [int(input(f"Side-{i + 1}: ")) for i in range(4)]
@@ -35,7 +35,7 @@ if shape.lower() == "quadrilateral":
     except ValueError:
         print("Please enter a valid number.")
 
-elif shape.lower() == "triangle":
+elif shape.lower().strip() == "triangle":
     try:
         sides = [int(input(f"Side-{i + 1}: ")) for i in range(3)]
         print(determine_triangle_type(*sides))
