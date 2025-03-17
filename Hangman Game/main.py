@@ -10,11 +10,11 @@ print(logo)
 
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
-display = ["_" for _ in range(word_length)]  # Daha temiz placeholder oluşturma
-print("Word to guess: " + " ".join(display)) # Daha okunabilir kelime gösterimi
+display = ["_" for _ in range(word_length)]  # Create a clean placeholder
+print("Word to guess: " + " ".join(display)) # Display the word with spaces for readability
 
 game_over = False
-guessed_letters = [] # Doğru ve yanlış tahmin edilen harfleri tutar
+guessed_letters = [] # Keep track of guessed letters (both correct and incorrect)
 stages = hangman_art.stages
 
 while not game_over:
