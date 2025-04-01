@@ -1,6 +1,5 @@
 from random import randint
 
-
 EASY_LEVEL_TURNS = 10
 HARD_LEVEL_TURNS = 5
 
