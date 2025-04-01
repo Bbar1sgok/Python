@@ -3,7 +3,6 @@ from random import randint
 EASY_LEVEL_TURNS = 10
 HARD_LEVEL_TURNS = 5
 
-
 # Function to check users' guess against actual answer
 def checkAnswer(userGuess, actualAnswer, turns):
     """Checks answer against guess, returns the number of turns remaining."""
