@@ -1,6 +1,6 @@
 import random
 
-# PyPassword Generator
+# Basic Password Generator
 # This program generates a random password based on the number of
 # letters, numbers, and symbols chosen by the user.
 # It was created to practice Python lists, loops, and the random module.
@@ -46,3 +46,4 @@ last_password = "".join(password_list)
 
 
 print(f"Your password is: {last_password}")
+
